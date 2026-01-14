@@ -652,4 +652,13 @@ main > .main-content { padding-bottom: 0; }
 }
 
 
+/* Forzar tamaño del logo en móviles: prioridad máxima para evitar anulaciones */
+@media (max-width: 600px) {
+    .logo img { width: 210px !important; height: 190px !important; max-width: none !important; }
+}
+@media (max-width: 433px) {
+    .logo img { width: 210px !important; height: 190px !important; max-width: none !important; }
+}
+
+
 
