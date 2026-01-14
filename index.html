@@ -10,6 +10,15 @@
     <title>Mi Página</title>
    
     <link rel="stylesheet" href="docs/estilos.css"> 
+    <style>
+    /* Forzar +10px al logo en móviles (index.html usa docs/logo.png 250x200) */
+    @media (max-width: 600px) {
+        .logo img { width: 260px !important; height: 210px !important; max-width: none !important; }
+    }
+    @media (max-width: 433px) {
+        .logo img { width: 260px !important; height: 210px !important; max-width: none !important; }
+    }
+    </style>
 </head>
 <body>
 
